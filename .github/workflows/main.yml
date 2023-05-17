@@ -22,7 +22,7 @@ jobs:
       - name: 1. Set-up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17
+          node-version: 18
 
       - name: 2. Install dependencies
         run: npm i
