@@ -20,9 +20,10 @@
     "outDir": "dist",
     "declaration": true,
     "noEmit": false,
-    "allowImportingTsExtensions": false
+    "allowImportingTsExtensions": false,
+    "rootDir": "src"
   },
 
   "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": ["src/stories"]
+  "exclude": ["src/stories","vite.config.d.ts","vite.config.js","vite.config.ts"]
 }
