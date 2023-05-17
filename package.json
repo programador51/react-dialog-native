@@ -12,6 +12,10 @@
       "main"
     ]
   },
+  "author": {
+    "name": "José Luis Pérez Olguín",
+    "email": "jperezo98@hotmail.com"
+  },
   "version": "0.0.0-development",
   "type": "module",
   "scripts": {
@@ -70,7 +74,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/programador51/react-dialog-native.git"
+    "url": "https://github.com/programador51/react-dialog-native"
   },
   "config": {
     "commitizen": {
