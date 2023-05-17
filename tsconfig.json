@@ -19,7 +19,8 @@
     "noFallthroughCasesInSwitch": true,
     "outDir": "dist",
     "declaration": true,
-    "rootDir": "src"
+    "noEmit": false,
+    "allowImportingTsExtensions": false
   },
 
   "references": [{ "path": "./tsconfig.node.json" }],
