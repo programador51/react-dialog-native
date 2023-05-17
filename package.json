@@ -72,6 +72,9 @@
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/programador51/react-dialog-native"
