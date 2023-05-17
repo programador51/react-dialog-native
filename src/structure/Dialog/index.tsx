@@ -1,5 +1,6 @@
+"use client";
 import { PropsDialog } from "./types";
-import { Dialog as DialogContainer, Title, Footer , Content } from "./styles";
+import { Dialog as DialogContainer, Title, Footer, Content } from "./styles";
 
 /**
  * Render a modal dialog
@@ -43,7 +44,7 @@ export default function Dialog({
   footer = null,
   title = null,
   closeCallback = null,
-  width = 40
+  width = 40,
 }: PropsDialog) {
   return (
     <DialogContainer width={width} ref={forwardRef}>
