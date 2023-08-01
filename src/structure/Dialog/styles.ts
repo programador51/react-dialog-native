@@ -23,13 +23,13 @@ const Dialog = styled.dialog<{ width: number }>`
   @media (max-width: 768px) {
     width: 100vw;
     max-width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 100dvh;
+    max-height: 100dvh;
     border-radius: 0px;
   }
 
   &::backdrop {
-    background: rgba(0, 0, 0,.35);
+    background: rgba(0, 0, 0, 0.35);
   }
 `;
 
@@ -44,8 +44,8 @@ const Title = styled.div`
   div:nth-child(1) {
     display: flex;
   }
-  
-  background-color:${bgLight};
+
+  background-color: ${bgLight};
   border: 1px solid ${bgLightHover};
   border-style: none none solid none;
   svg {
@@ -58,7 +58,7 @@ const Title = styled.div`
     justify-content: center;
     align-items: center;
     transition: background 0.25s ease;
-    color:${bgDark};
+    color: ${bgDark};
     &:hover {
       background-color: ${bgLightHover};
     }
@@ -67,15 +67,15 @@ const Title = styled.div`
   @media (prefers-color-scheme: dark) {
     border: 1px solid ${bgDarkHover};
     background-color: ${bgDark};
-    svg{
-        color:${bgLight};
-        &:hover{
-            background-color: ${bgDarkHover};
-        }
+    svg {
+      color: ${bgLight};
+      &:hover {
+        background-color: ${bgDarkHover};
+      }
     }
   }
 
-  @media (max-width:768px){
+  @media (max-width: 768px) {
     grid-template-columns: 85% 12%;
   }
 `;

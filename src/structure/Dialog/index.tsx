@@ -1,4 +1,3 @@
-"use client";
 import { PropsDialog } from "./types";
 import { Dialog as DialogContainer, Title, Footer, Content } from "./styles";
 

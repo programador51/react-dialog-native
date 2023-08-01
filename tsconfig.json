@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES5",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "CommonJS",
     "skipLibCheck": true,
-
+    "sourceMap": true,
+    "module": "CommonJS",
     /* Bundler mode */
     // "moduleResolution": "bundler",
-    "resolveJsonModule": true,
+    // "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowJs": false,
 
     "jsx": "react-jsx",
 
@@ -21,9 +24,19 @@
     "declaration": true,
     "noEmit": false,
     "allowImportingTsExtensions": false,
+
     "rootDir": "src"
   },
 
   "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": ["src/stories","vite.config.d.ts","vite.config.js","vite.config.ts"]
+  "exclude": [
+    "src/stories",
+    "vite.config.d.ts",
+    "vite.config.js",
+    "vite.config.ts",
+    "src/App.css",
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/index.css"
+  ]
 }
